@@ -1,0 +1,48 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.app-container {
+  width: 140px;
+  height: 160px;
+  border-radius: 15px;
+  padding: auto;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 180px;
+    height: 200px;
+  }
+}
+
+.image {
+  width: 50%;
+  margin-bottom: 8px;
+}
+
+.app-name {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-name {
+    font-size: 18px;
+  }
+}
